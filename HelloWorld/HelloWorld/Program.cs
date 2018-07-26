@@ -26,18 +26,26 @@ namespace HelloWorld
             string name = "";
             Console.WriteLine("Please type in name:");
             name = Console.ReadLine();
-            Console.WriteLine("Hello {0}", name);
+            Console.WriteLine("\nHello {0}", name);
+            Console.WriteLine();
+
+
 
             //basic calculation
             int num1 = 0;
             int num2 = 0;
+            Console.WriteLine("===========================:");
+            Console.WriteLine("==========Addition=========:");
+            Console.WriteLine("===========================:");
             Console.WriteLine("Please type in first number:");
             num1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Please type in second number:");
-            num2= Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToInt32(Console.ReadLine());
 
-            num1
+            int ans = num1 + num2;
+            Console.WriteLine("\n{0} + {1} = {2}",num1, num2, ans);
+
 
 
 
