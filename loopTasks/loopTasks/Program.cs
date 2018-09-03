@@ -40,8 +40,10 @@ namespace loopTasks
                     case 3:
                         task3();
                         break;
-                
 
+
+                    default:
+                        break;
 
 
                 }
